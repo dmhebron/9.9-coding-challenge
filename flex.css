@@ -1,0 +1,38 @@
+form {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: lightgrey;
+    width: max-content;
+    height: max-content;
+    flex-wrap:nowrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title{
+background-color: blueviolet;
+text-indent: 40%;
+}
+.nav {
+    color: blueviolet;
+    text-indent: 25px;
+    width: 20%;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.name {
+    padding: 20px;
+}
+.hobby {
+padding: 20px;
+}
+
+ .image {
+    padding: 20px;
+ }
+ .radio {
+    padding: 20px;
+ }
+ .submit {
+    padding: 20px;
+ }
